@@ -1,0 +1,8 @@
+.page-full{
+  min-height: 100vh;
+}
+
+.page{
+  display: flex;
+  justify-content: center;
+}

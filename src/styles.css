@@ -1,1 +1,229 @@
 /* You can add global styles to this file, and also import other style files */
+/*lexend-deca-
+    font-family: 'Lexend Deca', sans-serif;
+    @import url("http://fonts.cdnfonts.com/css/lexend-deca");
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+/*Mogra
+    font-family: "Mogra", sans-serif;
+    font-family: 'Mogra', cursive;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Mogra&display=swap");
+
+/*Averia Sans Libre
+    font-family: 'Averia Sans Libre', sans-serif;
+    font-family: 'Averia Sans Libre', cursive;
+*/
+@import url("https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300&family=Lexend+Deca&family=Mogra&display=swap");
+
+.bg-rosa {
+    background-color: #ff5d9d !important;
+    color: white !important;
+}
+
+.colorTextoAzul {
+    color: #0f006f !important;
+}
+
+.tamanoLogoSalva {
+    height: 60px;
+    width: 150px;
+}
+
+.button-redondo {
+    border-radius: 20px;
+}
+
+.tamanoGif {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.tamanoTitulo {
+    font-size: 25px;
+    margin-left: 20px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.subtituloTamano {
+    font-size: 22px;
+    margin-left: 20px;
+    font-family: "Mogra", cursive;
+}
+
+.textTamano {
+    font-size: 16px;
+    margin-left: 20px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.boton-center-movil {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.textLexendDeca {
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.textMogra {
+    font-family: "Mogra", cursive;
+}
+
+.TextAveriaSans {
+    font-family: "Averia Sans Libre", cursive;
+}
+
+.alinearTextIzquierda {
+    text-align: left;
+}
+
+.text-empieza-salvar {
+    font-size: 30px;
+}
+
+@media (min-width: 540px) {
+    .margin-left-nav {
+        margin-left: 35% !important;
+    }
+
+    .text-empieza-salvar {
+        font-size: 40px;
+    }
+
+    .margin-rigth-ul {
+        margin-right: 10% !important;
+    }
+
+    .tamanoGif {
+        width: 33%;
+        margin-bottom: -70px;
+        margin-left: 30%;
+    }
+
+    .subtituloTamano {
+        font-size: 45px;
+        font-family: "Mogra", cursive;
+    }
+    .textTamano {
+        font-size: 22px;
+        font-family: "Lexend Deca", sans-serif;
+    }
+
+    .margin-top-contenido-info {
+        margin-top: 30px;
+        margin-left: 10%;
+    }
+    .margin-top-contenido2 {
+        margin-top: 50px;
+    }
+
+    .tamanoTitulo {
+        font-size: 38px;
+        font-family: "Lexend Deca", sans-serif;
+    }
+
+    .boton-center-movil {
+    }
+
+    .tamanoGif {
+        width: 33%;
+        margin-bottom: -70px;
+        margin-left: 30%;
+    }
+}
+
+.imgDiagonal {
+    background: url(./assets/assets/img/fondoHorizontal.jpg);
+    width: 40%;
+    height: 400px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.imgDiagonal::after {
+    content: "";
+    position: absolute;
+    right: 40px;
+    width: 120%;
+    height: 400px;
+
+    transform: skew(-40deg);
+}
+
+.imagen {
+    height: 300px;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    background: url(./assets/assets/img/fondoHorizontal.jpg);
+}
+.imagen:after {
+    content: "";
+    position: absolute;
+    top: 93%;
+    left: 0;
+    height: 100%;
+    width: 150%;
+    background: red;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+.tamanoImgFondoHorizontal {
+    height: 500px;
+    width: 700px;
+}
+
+.contenedor {
+    position: relative;
+    display: inline-block;
+}
+.texto-encima {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+}
+
+.colorMorado {
+    background-color: #0f006f;
+    height: 200px;
+}
+
+.tamanoContainerFooter {
+    height: 80px;
+}
+
+.tamanoLogoSalvaGris {
+    height: 60px;
+    width: 160px;
+}
+
+.textGris {
+    color: #797979;
+}
+
+.textRosa {
+    color: #ff5d9d;
+}
+
+.tamanoIconList {
+    height: 30px;
+    width: 30px;
+}
+
+.tamanoIconListPan {
+    height: 20px;
+    width: 35px;
+}
