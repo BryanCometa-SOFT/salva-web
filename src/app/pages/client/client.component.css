@@ -1,0 +1,32 @@
+.centradoClientes {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centradoClientes3 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centradoClientes2 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textSizeClient {
+  font-size: 20px;
+}
+
+.textTitleClient {
+  font-size: 45px;
+}
+
+.marginTopImgClientes {
+  margin-top: -2%;
+}

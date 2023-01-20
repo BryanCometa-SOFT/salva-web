@@ -1,0 +1,33 @@
+.tamanoImgLogoRosaAlto {
+  height: 150px;
+  width: 140px;
+}
+
+.bordeCajaEnviarInfo {
+  border-radius: 20px;
+  border: 1px solid #afacac;
+}
+
+.marginButtonFormImg {
+  margin-bottom: -600px;
+}
+
+.inputTextRedondo {
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn-dark {
+  background-color: #ff5d9d !important;
+  color: white;
+  border-radius: 20px;
+}
+@media (min-width: 540px) {
+  .marginImgButtonAntiFooter {
+      margin-bottom: 40%;
+  }
+}
+
+.marginImgButtonAntiFooter {
+  margin-bottom: 80%;
+}

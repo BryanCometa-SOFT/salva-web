@@ -1,0 +1,22 @@
+.margenNegativaImgCurvo {
+  margin-bottom: -20% !important;
+}
+
+.imgRedonda {
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+}
+
+.margenContainerInformacion {
+  margin-right: 10% !important;
+  margin-left: 10% !important;
+}
+
+.divMargenTopInfo {
+  margin-top: 75px;
+}
+
+.tituloCarouselMargen {
+  margin-top: 80px;
+}
