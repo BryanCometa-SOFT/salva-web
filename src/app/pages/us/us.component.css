@@ -1,31 +1,32 @@
-.margen-negativa-imagen {
-  margin-top: -240px;
+.centradoClientes {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.margin-negativa-svg-inferior {
-  margin-top: -40px;
+.centradoClientes3 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.contenedorTextoDiseñoCurvo {
-  background-color: #ff5d9d;
+.centradoClientes2 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.card {
-  border: none;
+.textSizeClient {
+  font-size: 20px;
 }
 
-.margin-top-card-rigth {
-  margin-top: 180px;
+.textTitleClient {
+  font-size: 45px;
 }
 
-.margenTopTextNosotrosImg {
-  margin-top: 600px;
-}
-
-.marginTextInfoNosotros {
-  margin-top: -300px;
-}
-
-.textNosotrosmargin {
-  margin-top: 35%;
+.marginTopImgClientes {
+  margin-top: -2%;
 }
